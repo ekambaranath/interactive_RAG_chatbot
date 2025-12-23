@@ -36,7 +36,7 @@ def elitebody_chat(query):
     # ---- GREETING INTENT ----
     if q in ["hi", "hello", "hey", "good morning", "good evening"]:
         return (
-            "👋 Hello! Welcome to **Elite Body Home Polyclinic**.\n\n"
+            " Hello! Welcome to **Elite Body Home Polyclinic**.\n\n"
             "How can I help you today?\n"
             "• Treatments & services\n"
             "• Working hours\n"
@@ -47,7 +47,7 @@ def elitebody_chat(query):
     # ---- BASIC DETAILS ----
     if any(word in q for word in ["about", "clinic", "elite body home", "who are you"]):
         return (
-            "💎 **Elite Body Home Polyclinic** is a beauty and wellness clinic based in Dubai.\n\n"
+            " **Elite Body Home Polyclinic** is a beauty and wellness clinic based in Dubai.\n\n"
             "We provide high-quality, non-invasive aesthetic and medical wellness treatments "
             "delivered by experienced, DHA-certified doctors in a welcoming environment.\n\n"
             "We focus on personalized care using advanced technology and ISO international "
@@ -56,12 +56,12 @@ def elitebody_chat(query):
 
     # ---- WORKING HOURS ----
     if any(word in q for word in ["working hours", "timings", "hours", "open"]):
-        return "🕘 **Working Hours:** Monday to Sunday, 9:00 AM to 9:00 PM."
+        return " **Working Hours:** Monday to Sunday, 9:00 AM to 9:00 PM."
 
     # ---- LOCATION ----
     if any(word in q for word in ["location", "address", "where"]):
         return (
-            "📍 **Our Location:**\n"
+            "**Our Location:**\n"
             "2nd December Street, Jumeirah 1,\n"
             "Al Hudaiba Awards Buildings Block B,\n"
             "1st Floor, Dubai."
@@ -70,7 +70,7 @@ def elitebody_chat(query):
     # ---- CONTACT DETAILS ----
     if any(word in q for word in ["contact", "phone", "email", "call"]):
         return (
-            "📞 **Contact Information:**\n"
+            " **Contact Information:**\n"
             "Email: contact@elitebodyhome.com\n"
             "Phone: +971 55 120 0086\n"
             "Phone: +971 4 547 9492"
@@ -79,7 +79,7 @@ def elitebody_chat(query):
     # ---- TREATMENTS / SERVICES ----
     if any(word in q for word in ["treatment", "treatments", "services", "procedures"]):
         return (
-            "🌿 **Services & Treatments at Elite Body Home**\n\n"
+            " **Services & Treatments at Elite Body Home**\n\n"
             "We offer a wide range of non-surgical aesthetic and wellness treatments:\n"
             "- Body sculpting\n"
             "- Cryolipolysis (non-invasive fat freezing)\n"
@@ -111,7 +111,7 @@ def elitebody_chat(query):
         })
 
         return (
-            f"✅ **Appointment Booked Successfully!**\n"
+            f"**Appointment Booked Successfully!**\n"
             f"Name: {name}\n"
             f"Treatment: {treatment}\n"
             f"Date: {date}\n"
