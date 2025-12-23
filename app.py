@@ -91,7 +91,7 @@ def elitebody_chat(query):
             "- Slimming treatments\n"
             "- Physiotherapy\n"
             "- IV therapy\n\n"
-            "✨ **Highlights:**\n"
+            " **Highlights:**\n"
             "• Cryolipolysis targets stubborn fat without surgery or downtime.\n"
             "• Aqualyx eliminates localized fat with minimal downtime."
         )
@@ -126,7 +126,7 @@ def elitebody_chat(query):
     return "Sorry, I couldn't find relevant information. Please try asking differently."
 
 if __name__ == "__main__":
-    print("💎 Elite Body Home Polyclinic Chatbot (Offline RAG)")
+    print("Elite Body Home Polyclinic Chatbot (Offline RAG)")
     print("Type 'exit' to quit.")
 
     while True:
